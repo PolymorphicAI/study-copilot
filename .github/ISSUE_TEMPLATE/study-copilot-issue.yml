@@ -1,0 +1,27 @@
+name: Study Copilot issue
+description: Create a scoped Study Copilot contribution issue
+title: "[Study Copilot]: "
+labels: ["wave-ready"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should be done?
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: List the steps needed to complete this issue.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How will maintainers know this is complete?
+    validations:
+      required: true
+
