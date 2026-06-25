@@ -32,6 +32,10 @@ Study Copilot is exploring future Stellar ecosystem features such as:
 - Study streak and achievement reward research
 - Portable learning progress and proof-of-study concepts
 
+## Security And AI Notes
+
+- [Prompt injection risks and mitigations](docs/prompt-injection-risks.md)
+
 ## Contributing
 
 We welcome contributors across frontend, backend, AI, documentation, testing, accessibility, and Stellar/Soroban research.
