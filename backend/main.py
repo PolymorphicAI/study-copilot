@@ -24,6 +24,10 @@ APP_NAME = "Study Copilot API"
 APP_VERSION = "1.0.0"
 MAX_PDF_BYTES = 10 * 1024 * 1024
 MAX_NOTES_CHARS = 15000
+AI_FALLBACK_MESSAGE = (
+    "AI generation is temporarily unavailable, so Study Copilot is showing offline practice cards instead."
+)
+AI_FALLBACK_GUIDANCE = "You can keep studying now and try live AI generation again later."
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MODEL_CANDIDATES = [
@@ -121,8 +125,7 @@ def get_fallback_cards(topic: str) -> list[dict[str, Any]]:
             "type": "concept",
             "title": f"Introduction to {topic}",
             "content": (
-                f"Welcome to {topic}. This fallback card appears when Gemini is unavailable. "
-                "Set GOOGLE_API_KEY to enable live AI-generated study cards."
+                f"Welcome to {topic}. {AI_FALLBACK_MESSAGE} {AI_FALLBACK_GUIDANCE}"
             ),
             "timestamp": now_iso(),
         },
