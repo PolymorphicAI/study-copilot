@@ -90,7 +90,7 @@ You should see output indicating that the backend server is running:
 ### 1. "Backend Offline" indicator in the browser
 - Check if your FastAPI terminal process crashed. If so, restart it with `python backend/main.py`.
 - Ensure the server is listening on port `8000` (the default port the frontend queries). If running on another port, change the `PORT` env variable.
-- Check for CORS blocks. By default, CORS is set to allow all origins `["*"]` in `main.py`.
+- Check for CORS blocks. By default, CORS is set to allow all origins `["*"]` in `main.py`; see `docs/cors-configuration.md` for local setup, production guidance, and troubleshooting notes.
 
 ### 2. Cards loading but showing "Offline Sandbox Mode"
 - This means your API key is missing or invalid. Check that the `.env` file exists in the `backend/` folder and contains `GOOGLE_API_KEY=AIzaSy...` (without spaces around the `=` sign).
