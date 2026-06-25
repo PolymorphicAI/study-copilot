@@ -21,6 +21,7 @@ The app uses a vertical scrolling learning experience inspired by modern short-f
 - Track progress, bookmarks, and study activity
 - Navigate with keyboard shortcuts
 - Use offline sandbox fallback when backend is unavailable
+- Show user-safe fallback messages when AI generation is unavailable
 
 ## Stellar/Soroban Exploration Roadmap
 
