@@ -42,6 +42,17 @@ Please check the Issues tab, comment before starting, and submit focused pull re
 
 See `SETUP_GUIDE.md` for detailed setup instructions.
 
+## Backend Tests
+
+From the repository root:
+
+```bash
+pip install -r backend/requirements.txt
+pytest tests/test_backend_api.py
+```
+
+The backend API tests force offline mode and mock card generation where needed, so they do not require a real `GOOGLE_API_KEY`.
+
 ## License
 
 MIT
