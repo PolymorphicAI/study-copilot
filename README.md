@@ -20,7 +20,7 @@ The app uses a vertical scrolling learning experience inspired by modern short-f
 - Practice with quiz cards
 - Track progress, bookmarks, and study activity
 - Navigate with keyboard shortcuts
-- Use offline sandbox fallback when backend is unavailable
+- Use offline sandbox fallback when backend is unavailable; see `docs/offline-sandbox-mode.md`
 
 ## Stellar/Soroban Exploration Roadmap
 
