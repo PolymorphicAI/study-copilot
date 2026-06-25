@@ -19,7 +19,7 @@ The app uses a vertical scrolling learning experience inspired by modern short-f
 - Paste notes or articles for AI-assisted breakdown
 - Practice with quiz cards
 - Track progress, bookmarks, and study activity
-- Navigate with keyboard shortcuts
+- Navigate with keyboard shortcuts; see `docs/keyboard-navigation.md`
 - Use offline sandbox fallback when backend is unavailable
 
 ## Stellar/Soroban Exploration Roadmap
