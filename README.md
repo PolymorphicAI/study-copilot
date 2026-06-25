@@ -37,7 +37,8 @@ Quick start:
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
+# Windows: venv\Scripts\activate
+# macOS/Linux: source venv/bin/activate
 pip install -r backend/requirements.txt
 python backend/main.py
 ```
